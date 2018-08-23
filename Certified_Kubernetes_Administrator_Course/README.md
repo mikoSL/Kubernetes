@@ -1,6 +1,7 @@
 # Certified Kubernetes Administrator Course Studying Note
+## It is from www.linuxacademy.com
 
-## Set up cluster,
+## Set up cluster in linuxacademy cloud server
 1. create 6 nodes and select one as master node then config master mode as following
 ```
 $ sudo kubeadm init --pod-network-cdir=10.244.0.0/16
@@ -35,3 +36,4 @@ $ sudo kubeadm join 172.31.41.170:6443 --token xxxxxx  --discovery-token-ca-cert
 $ kubectl get nodes
 
 ```
+6. Join other nodes to cluster (repeat step 4)! Now it is ready!!
