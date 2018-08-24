@@ -1,12 +1,12 @@
 # Certified Kubernetes Administor(CKA) Course from linuxacademy.com
 
-1. [Course content](https://github.com/mikoSL/Kubernetes/tree/master/Certified_Kubernetes_Administrator_Course/Contents)
+## 1. [Course content](https://github.com/mikoSL/Kubernetes/tree/master/Certified_Kubernetes_Administrator_Course/Contents)
 * [Setup cluster](https://github.com/mikoSL/Kubernetes/tree/master/Certified_Kubernetes_Administrator_Course/Contents/1_Setup_Cluster)
 * [Installation, Configuration and Validation](https://github.com/mikoSL/Kubernetes/tree/master/Certified_Kubernetes_Administrator_Course/Contents/2_Installation_Configuration_Validation)
 * [Application Lifecycle Management](https://github.com/mikoSL/Kubernetes/tree/master/Certified_Kubernetes_Administrator_Course/Contents/3_Application_Lifecycle_Management)
 * [Scheduling](https://github.com/mikoSL/Kubernetes/tree/master/Certified_Kubernetes_Administrator_Course/Contents/4_Scheduling)
 
-2. [Exercises](https://github.com/mikoSL/Kubernetes/tree/master/Certified_Kubernetes_Administrator_Course/Exercises)
+## 2. [Exercises](https://github.com/mikoSL/Kubernetes/tree/master/Certified_Kubernetes_Administrator_Course/Exercises)
 * [Run a job](https://github.com/mikoSL/Kubernetes/tree/master/Certified_Kubernetes_Administrator_Course/Exercises/1_Run_a_Job)
 * [Deploy a pod](https://github.com/mikoSL/Kubernetes/tree/master/Certified_Kubernetes_Administrator_Course/Exercises/2_Deploy_a_Pod)
 * [Explore the sandbox](https://github.com/mikoSL/Kubernetes/tree/master/Certified_Kubernetes_Administrator_Course/Exercises/3_Explore_the_Sandbox)
@@ -20,4 +20,4 @@
 * [Multiple scheduler](https://github.com/mikoSL/Kubernetes/tree/master/Certified_Kubernetes_Administrator_Course/Exercises/11_Multiple_Schedulers)
 
 
-3. [Quiz](https://github.com/mikoSL/Kubernetes/tree/master/Certified_Kubernetes_Administrator_Course/Quiz)
+## 3. [Quiz](https://github.com/mikoSL/Kubernetes/tree/master/Certified_Kubernetes_Administrator_Course/Quiz)
