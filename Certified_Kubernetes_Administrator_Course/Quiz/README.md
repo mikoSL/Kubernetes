@@ -14,7 +14,7 @@
 
 7. For network policies to work in Kubernetes, **CNI must enforce** the network policies.If the CNI doesn't support network policies, then applying a YAML formula with a network policy in it will return a success, but the policies will not be enforced.
 
-8. kubernetes pods 'restart policies': **Always**, **OnFailure** and **Never**.
+8. Kubernetes pods 'restart policies': **Always**, **OnFailure** and **Never**.
 
 9. **DaemonSet** (shotform **ds**)use case: An **CNI container** that needs to run on **every node** in order to function properly. Use DeamsonSet for Pods that need to run **one per machine**, because they provide a **machine-specific system** service.
 
@@ -46,4 +46,4 @@
 
 23. **PodAffinity** is used for placing two ore more pods on the same node. (label is used as well with podAffinity attribute)
 
-24. If **a toleration and a taint** match during scheduling, the taint is ignored and the jpod might be scheduled to the node. Taint and toleration work together to make sure pods are not scheduled onto inappropriate nodes. One ore more taints are applied to a node, this marks that the node should not accept any jpods that do not tolerate the tains. tolerations are applied to pods, and allow(but do not require) the pods to schedule onto nodes with matching taints.
+24. If **a toleration and a taint** match during scheduling, the taint is ignored and the pod might be scheduled to the node. Taint and toleration work together to make sure pods are not scheduled onto inappropriate nodes. One ore more taints are applied to a node, this marks that the node should not accept any pods that do not tolerate the taints. Tolerations are applied to pods, and allow(but do not require) the pods to schedule onto nodes with matching taints.
