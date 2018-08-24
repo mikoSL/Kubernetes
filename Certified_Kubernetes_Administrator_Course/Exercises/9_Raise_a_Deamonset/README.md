@@ -1,0 +1,28 @@
+# Raise a DeamsonSet
+
+## Write the yaml to deploy a DaemonSet (just use an nginx image) and then test it to be sure it gets deployed on each node.  Delete the pods when you've completed the exercise.
+
+```
+apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+ name: cthulu
+ labels:
+  daemon: "yup"
+spec:
+  selector:
+   matchLabels:
+    daemon: "pod"
+  template:
+   metadata:
+    labels:
+     daemon: pod
+   spec:
+    tolerations:
+    - key: node-role.kubernetes.io/master
+      effect: NoSchedule
+    containers:
+    - name: cthulu-jr
+      image: nginx
+
+```
