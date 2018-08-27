@@ -70,6 +70,7 @@ $ kubectl exec --it pod-name -- nslookup service-name
 
 ## 6. Container Network Interface(CNI)
 * CNI plugin
+* Kubernets requires its **networking model** to be implemented by a **third-party plugin**, called CNI
 * All pods can communicate with all other pods. (IP address)
 * Dynamic port allocation problem
 * Kubernets ways:

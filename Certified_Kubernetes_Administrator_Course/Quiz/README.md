@@ -47,3 +47,27 @@
 23. **PodAffinity** is used for placing two ore more pods on the same node. (label is used as well with podAffinity attribute)
 
 24. If **a toleration and a taint** match during scheduling, the taint is ignored and the pod might be scheduled to the node. Taint and toleration work together to make sure pods are not scheduled onto inappropriate nodes. One ore more taints are applied to a node, this marks that the node should not accept any pods that do not tolerate the taints. Tolerations are applied to pods, and allow(but do not require) the pods to schedule onto nodes with matching taints.
+
+25. Shell prompt to a Ubuntu 16.04 based container called "sidecar1" in the pod "star-aaa-bb"? There are serveral containers in the pod. **$ kubectl exec -it star-aaa-bb --container sidecar1 --/bin/bash** It is not recommended to get to a containers's shell in Kubenetes, use it for debugging only.
+
+26. Check the application logs, which are in a file in the container "appctn" in the pod "apppod-abc-123" at /var/log/applog. **$ kubectl exec apppod-abc-123 --cat /var/log/applog**
+
+27. **$ kubectl logs to-the-screen** give you **stdout(standard output) of a pod** called "to-the-screen" .
+
+28. Kubernetes key/value store(etcd) log file reside in **/var/log/pods**
+
+29. Check the CPU and memory request of a node called "node8" **$ kubectl describe node node8**
+
+30. **flag --previous** will ge the logs back from a **dead or evicted* pod**.
+
+31. Easy command to check the health and status of your cluster **$ kubectl get nodes**
+
+32. **$ kubectl top node-name pod-name** command line can access to the mew metrics API which started with Kubernetes1.8.
+
+33. Drain one node at a time, if you **attempt to drain more**, any drains that would **cause the number of ready replicas to fall below the specified budget** are **blocked**. The **stateful Sets** take care of themselves and prevent drains from happening that would prevent them from maintaining their budgets.
+
+34. Upgrading is interrupted some nodes are in older version, some in new. The upgrading can be re do by running kubeadm. It is **idempotent** and will more all nodes to be desired state.
+
+35. Using latest version of Kubernetes but disallow any features that are not part of v1 API. append **--runtime-config=api/all=false, api/v1=true** to the command that bring up his apiserver. **apiserver is the only piece that requires configuration to this possible**.
+
+36. **Node self registration mode** can easily add nodes to your cluster. When the kubelet flag **--register-node** is true(the default), kubelet will attempt to register itself with AIP server. This the prefered pattern, used by most distros.  

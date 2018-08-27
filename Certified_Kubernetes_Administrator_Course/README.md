@@ -5,6 +5,9 @@
 * [Installation, Configuration and Validation](https://github.com/mikoSL/Kubernetes/tree/master/Certified_Kubernetes_Administrator_Course/Contents/2_Installation_Configuration_Validation)
 * [Application Lifecycle Management](https://github.com/mikoSL/Kubernetes/tree/master/Certified_Kubernetes_Administrator_Course/Contents/3_Application_Lifecycle_Management)
 * [Scheduling](https://github.com/mikoSL/Kubernetes/tree/master/Certified_Kubernetes_Administrator_Course/Contents/4_Scheduling)
+* [Logging & Monitoring](https://github.com/mikoSL/Kubernetes/tree/master/Certified_Kubernetes_Administrator_Course/Contents/5_Logging_Monitoring)
+* [Cluster Maintenance](https://github.com/mikoSL/Kubernetes/tree/master/Certified_Kubernetes_Administrator_Course/Contents/6_Cluster_Maintenance)
+* [Networking](https://github.com/mikoSL/Kubernetes/tree/master/Certified_Kubernetes_Administrator_Course/Contents/7_Networking)
 
 ## 2. [Exercises](https://github.com/mikoSL/Kubernetes/tree/master/Certified_Kubernetes_Administrator_Course/Exercises)
 * [Run a job](https://github.com/mikoSL/Kubernetes/tree/master/Certified_Kubernetes_Administrator_Course/Exercises/1_Run_a_Job)
@@ -18,6 +21,7 @@
 * [Raise a DeamsonSet](https://github.com/mikoSL/Kubernetes/tree/master/Certified_Kubernetes_Administrator_Course/Exercises/9_Raise_a_Deamonset)
 * [Lable a node & schedule a pod](https://github.com/mikoSL/Kubernetes/tree/master/Certified_Kubernetes_Administrator_Course/Exercises/10_Label_a_Node_Schedule_a_Pod)
 * [Multiple scheduler](https://github.com/mikoSL/Kubernetes/tree/master/Certified_Kubernetes_Administrator_Course/Exercises/11_Multiple_Schedulers)
+* [View the logs](https://github.com/mikoSL/Kubernetes/tree/master/Certified_Kubernetes_Administrator_Course/Exercises/12_View_the_Logs)
 
 
 ## 3. [Quiz](https://github.com/mikoSL/Kubernetes/tree/master/Certified_Kubernetes_Administrator_Course/Quiz)
