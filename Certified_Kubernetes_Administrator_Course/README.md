@@ -22,6 +22,7 @@
 * [Lable a node & schedule a pod](https://github.com/mikoSL/Kubernetes/tree/master/Certified_Kubernetes_Administrator_Course/Exercises/10_Label_a_Node_Schedule_a_Pod)
 * [Multiple scheduler](https://github.com/mikoSL/Kubernetes/tree/master/Certified_Kubernetes_Administrator_Course/Exercises/11_Multiple_Schedulers)
 * [View the logs](https://github.com/mikoSL/Kubernetes/tree/master/Certified_Kubernetes_Administrator_Course/Exercises/12_View_the_Logs)
+* [Backup and restore a Kubernetes cluster] (https://github.com/mikoSL/Kubernetes/tree/master/Certified_Kubernetes_Administrator_Course/Exercises/13_Backup_and_Restore_a_Kubernetes_Cluster)
 
 
 ## 3. [Quiz](https://github.com/mikoSL/Kubernetes/tree/master/Certified_Kubernetes_Administrator_Course/Quiz)
