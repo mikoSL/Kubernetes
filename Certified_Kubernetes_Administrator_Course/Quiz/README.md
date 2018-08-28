@@ -71,3 +71,17 @@
 35. Using latest version of Kubernetes but disallow any features that are not part of v1 API. append **--runtime-config=api/all=false, api/v1=true** to the command that bring up his apiserver. **apiserver is the only piece that requires configuration to this possible**.
 
 36. **Node self registration mode** can easily add nodes to your cluster. When the kubelet flag **--register-node** is true(the default), kubelet will attempt to register itself with AIP server. This the prefered pattern, used by most distros.  
+
+37. **Ingress** allows us to abstract away the implementation details of routes into the cluster, such as load balancers. An API object aht manages external access to the services in a cluster, usually HTTP.
+
+38. If an ingress request is made with **no associated rules**, all traffic is sent to a **single host**. This is a useful way of setting up common error pages, such as the location of a unified 404 pages.
+
+39. **CNI** handles inter-pod communication. It allows **pods** to communicate with one another **within a cluster** regardless of which node they are on.
+
+40. YAML for a **network policy**, the pattern is **Preamble, podSelector, ingress and/or engress rules**. Preamble contains apiVersion, kind, metadata. podSelector to determine which pods this policy oversees and the rules.
+
+41. If a service called "web-head" is exposed in the default namespace, then other pods can resolve it using all of these hostnames except **web-head.local**. The .local will not work!
+
+42. **Network policies** determines how a set of pods are allowed communicate with one another and other network endpoints. It determine what traffic gets into and out of a pod. CNI must support them, though, but not of them do.
+
+43.  For a user to be able to request an ingress resource, cluster must have an ingress controller compatible with available and appropriate service providers like load balancers. With kubernetes, the general rule of thumb is that YAML requests will return successfully, but if there is no service to fulfill it then the request will have **no effect**.
