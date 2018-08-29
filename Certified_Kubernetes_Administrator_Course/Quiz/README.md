@@ -85,3 +85,25 @@
 42. **Network policies** determines how a set of pods are allowed communicate with one another and other network endpoints. It determine what traffic gets into and out of a pod. CNI must support them, though, but not of them do.
 
 43.  For a user to be able to request an ingress resource, cluster must have an ingress controller compatible with available and appropriate service providers like load balancers. With kubernetes, the general rule of thumb is that YAML requests will return successfully, but if there is no service to fulfill it then the request will have **no effect**.
+
+44. **PersistentVolume (PV)** are cluster storage resources. They access different kind of physical storeage from different vendors by **plug-ins**.
+
+45. Lifecycle of **PV** and **PVC**: **Provision, bind, usage, reclaim**. First, the administrator provisions the resource or sets it up to be dynamically allocated. Next, when a PVC comes, in, it is bound to a PV and used. Once the resource is removed, it is reclaimed according to the reclaim policies.
+
+46. AccessModes that can be requested for a volume: ReadWriteOnce, ReadOnlyMany, ReadWriteMany.
+
+47. Regardless of which access modes a volume supports, it can only **support once at a time**. For example, if a volume is mounted as ReadOnlyMany in one pod, then another pod may not mount it in ReadWriteMany, even if it is supported by the volume type.
+
+48. **Ephemeral storage**: local storage on the node used for containers, Its contents are removed when the pod is deleted. Ephemeral storage is used to run **containers on local nodes**.
+
+49. **PersistentVolume** is a cluster storage resources. **PersistentVolumeClaim** is a user request for a storage resource. PVC request gets matched with a PV.
+
+50. If no enough permission for application to work. administrator who has the permissions should assign a role created for these permission. A **user** can **not escalate** own permissions. If an user does not have a given permissions, s/he can not create role with those permissions or grant other those permission.
+
+51. Security context for pods allow a lot of specifications but **not wether or not the image is secure**.
+
+52. administrator can configure a new role in the user's namespace with the appropriate rules then bind the role to the user subject to Limit a particular user could or could not do in particular namespace.
+
+53. Pod security policy is a **cluster-level** resource that controls security sensitive aspects of the pod specification. It define a set of conditions that a pod must run with in order to be accepted in the system as well as defaults for the related fields.
+
+54. Security context can be applied in **Container** and **pod**.
