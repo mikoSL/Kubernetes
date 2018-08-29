@@ -8,6 +8,8 @@
 * [Logging & Monitoring](https://github.com/mikoSL/Kubernetes/tree/master/Certified_Kubernetes_Administrator_Course/Contents/5_Logging_Monitoring)
 * [Cluster Maintenance](https://github.com/mikoSL/Kubernetes/tree/master/Certified_Kubernetes_Administrator_Course/Contents/6_Cluster_Maintenance)
 * [Networking](https://github.com/mikoSL/Kubernetes/tree/master/Certified_Kubernetes_Administrator_Course/Contents/7_Networking)
+* [Storage](https://github.com/mikoSL/Kubernetes/tree/master/Certified_Kubernetes_Administrator_Course/Contents/8_Storage)
+* [Security](https://github.com/mikoSL/Kubernetes/tree/master/Certified_Kubernetes_Administrator_Course/Contents/9_Security)
 
 ## 2. [Exercises](https://github.com/mikoSL/Kubernetes/tree/master/Certified_Kubernetes_Administrator_Course/Exercises)
 * [Run a job](https://github.com/mikoSL/Kubernetes/tree/master/Certified_Kubernetes_Administrator_Course/Exercises/1_Run_a_Job)
@@ -23,6 +25,8 @@
 * [Multiple scheduler](https://github.com/mikoSL/Kubernetes/tree/master/Certified_Kubernetes_Administrator_Course/Exercises/11_Multiple_Schedulers)
 * [View the logs](https://github.com/mikoSL/Kubernetes/tree/master/Certified_Kubernetes_Administrator_Course/Exercises/12_View_the_Logs)
 * [Backup and restore a Kubernetes cluster](https://github.com/mikoSL/Kubernetes/tree/master/Certified_Kubernetes_Administrator_Course/Exercises/13_Backup_and_Restore_a_Kubernetes_Cluster)
+* [Cluster DNS Service Discovery](https://github.com/mikoSL/Kubernetes/tree/master/Certified_Kubernetes_Administrator_Course/Exercises/14_Cluster_DNS_Service_Discovery)
+* [Work with Persistent Storage](https://github.com/mikoSL/Kubernetes/tree/master/Certified_Kubernetes_Administrator_Course/Exercises/15_Work_with_Persistent_Storage)
 
 
 ## 3. [Quiz](https://github.com/mikoSL/Kubernetes/tree/master/Certified_Kubernetes_Administrator_Course/Quiz)
